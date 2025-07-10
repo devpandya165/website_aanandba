@@ -1,3 +1,1 @@
-# Aanandba Vruddhashram Website
-
 Official website for Aanandba Vruddhashram - An NGO dedicated to elderly care in Vijapur, Gujarat.
