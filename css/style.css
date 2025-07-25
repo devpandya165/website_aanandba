@@ -736,13 +736,17 @@ body {
 
 .expandable-media img {
   width: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain; /* OR cover, depending on layout need */
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(74, 144, 226, 0.07);
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
   background: #e8f4fd;
+  display: block;
+  margin: 0 auto;
 }
+
 
 .expandable-media img:hover {
   transform: scale(1.04);
