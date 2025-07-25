@@ -737,6 +737,7 @@ body {
 .expandable-media img {
   width: 100%;
   height: auto;
+  aspect-ratio: 1/1;
   object-fit: contain; /* OR cover, depending on layout need */
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(74, 144, 226, 0.07);
